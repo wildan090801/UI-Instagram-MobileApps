@@ -11,6 +11,7 @@ class _HomePageState extends State<HomePage> {
     "assets/iu.jpg",
     "assets/kimjiwon.jpg",
     "assets/irene.jpeg",
+    "assets/hansohee.jpg",
     "assets/lalisa.jpeg",
     "assets/kimsohyun.jpg",
     "assets/kimjennie.jpeg",
@@ -22,6 +23,7 @@ class _HomePageState extends State<HomePage> {
     "assets/iu.jpg",
     "assets/kimjiwon.jpg",
     "assets/irene.jpeg",
+    "assets/hansohee.jpg",
     "assets/lalisa.jpeg",
     "assets/kimsohyun.jpg",
     "assets/kimjennie.jpeg",
@@ -33,6 +35,7 @@ class _HomePageState extends State<HomePage> {
     "assets/dlwlrma.jpg",
     "assets/geewonii.jpg",
     "assets/renebaebae.jpg",
+    "assets/xeesoxee.jpg",
     "assets/lalalalisa_m.jpg",
     "assets/wow_kimsohyun.jpg",
     "assets/jennierubyjane.jpg",
@@ -45,6 +48,7 @@ class _HomePageState extends State<HomePage> {
     "dlwlrma",
     "geewonii",
     "renebaebae",
+    "xeesoxee",
     "lalalalisa_m",
     "wow_kimsohyun",
     "jennierubyjane",
@@ -56,6 +60,7 @@ class _HomePageState extends State<HomePage> {
     "dlwlrma",
     "geewonii",
     "renebaebae",
+    "xeesoxee",
     "lalalalisa_m",
     "wow_kimsohyun",
     "jennierubyjane",
@@ -67,6 +72,7 @@ class _HomePageState extends State<HomePage> {
     " 여행 끝 일 열심히 하겠습니다😚",
     " #도시남녀의사랑법",
     " 🥥🥥🥥",
+    " u 나 b 🦋",
     " The first official photoshoot with my baby cats 💞",
     " 오랜만이에요♥️",
     " Happy 25th Birthday 💙🎉",
@@ -75,14 +81,15 @@ class _HomePageState extends State<HomePage> {
   ];
 
   List<String> allComentar = [
-    "Lihat semua 18.964 komentar",
-    "Lihat semua 5.218 komentar",
-    "Lihat semua 15.664 komentar",
+    "Lihat semua 38.964 komentar",
+    "Lihat semua 57.218 komentar",
+    "Lihat semua 65.664 komentar",
     "Lihat semua 107.731 komentar",
-    "Lihat semua 4.476 komentar",
-    "Lihat semua 404.887 komentar",
+    "Lihat semua 404.476 komentar",
+    "Lihat semua 45.887 komentar",
     "Lihat semua 43.443 komentar",
     "Lihat semua 48.532 komentar",
+    "Lihat semua 32.425 komentar",
   ];
 
   Future<void> onRefresh() async {
@@ -130,7 +137,7 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: List.generate(
-                    8,
+                    9,
                     (index) => Container(
                       padding: EdgeInsets.all(10),
                       child: Column(
@@ -163,7 +170,7 @@ class _HomePageState extends State<HomePage> {
               ),
               Column(
                 children: List.generate(
-                  8,
+                  9,
                   (index) => Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -251,7 +258,7 @@ class _HomePageState extends State<HomePage> {
                                 CircleAvatar(
                                   radius: 9,
                                   backgroundImage: AssetImage(
-                                    'assets/xeesoxee.jpg',
+                                    'assets/myprofile.jpeg',
                                   ),
                                 ),
                                 SizedBox(width: 10),
@@ -265,7 +272,7 @@ class _HomePageState extends State<HomePage> {
                                         ),
                                       ),
                                       TextSpan(
-                                        text: ' xeesoxee',
+                                        text: ' ndliw',
                                         style: TextStyle(
                                           fontSize: 15,
                                           fontWeight: FontWeight.bold,
